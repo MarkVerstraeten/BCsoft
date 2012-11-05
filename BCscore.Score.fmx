@@ -1,0 +1,23 @@
+object ScoreForm: TScoreForm
+  Left = 0
+  Top = 0
+  BiDiMode = bdLeftToRight
+  Caption = 'BCscore'
+  BorderStyle = bsNone
+  ClientHeight = 1116
+  ClientWidth = 1280
+  Transparency = False
+  TopMost = True
+  Visible = False
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  StyleLookup = 'backgroundstyle'
+  object rectBackground: TRectangle
+    Align = alClient
+    Width = 1280.000000000000000000
+    Height = 1116.000000000000000000
+    HitTest = False
+    OnKeyDown = rectBackgroundKeyDown
+    Fill.Color = claCadetblue
+  end
+end

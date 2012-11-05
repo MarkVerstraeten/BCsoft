@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2011/09/21 10:19:06.836.pas,C:\Users\mark\Documents\RAD Studio\Projects\BCsoft\Unit1.pas=C:\Users\mark\Documents\RAD Studio\Projects\BCsoft\BCscore.Colors.pas</Transaction>
+    <Transaction>2011/09/21 11:55:59.662.pas,C:\Users\mark\Documents\RAD Studio\Projects\BCsoft\BCscore.Colors.pas=C:\Users\mark\Documents\RAD Studio\Projects\BCsoft\BCscore.Consts.pas</Transaction>
+    <Transaction>2011/09/21 14:16:32.252.pas,C:\Users\mark\Documents\RAD Studio\Projects\BCsoft\Unit1.pas=C:\Users\mark\Documents\RAD Studio\Projects\BCsoft\BCscore.AskForm.pas</Transaction>
+    <Transaction>2011/09/21 14:16:32.252.dfm,C:\Users\mark\Documents\RAD Studio\Projects\BCsoft\Unit1.dfm=C:\Users\mark\Documents\RAD Studio\Projects\BCsoft\BCscore.AskForm.dfm</Transaction>
+    <Transaction>2011/09/21 15:34:56.425.pas,C:\Users\mark\Documents\RAD Studio\Projects\BCsoft\Unit1.pas=C:\Users\mark\Documents\RAD Studio\Projects\BCsoft\BCscore.ReadMember.pas</Transaction>
+    <Transaction>2011/09/21 15:34:56.425.dfm,C:\Users\mark\Documents\RAD Studio\Projects\BCsoft\Unit1.dfm=C:\Users\mark\Documents\RAD Studio\Projects\BCsoft\BCscore.ReadMember.dfm</Transaction>
+    <Transaction>2011/09/23 15:38:22.393.pas,C:\Users\mark\Documents\RAD Studio\Projects\BCsoft\Unit1.pas=C:\Users\mark\Documents\RAD Studio\Projects\BCsoft\BCscore.AskHandicaps.pas</Transaction>
+    <Transaction>2011/09/23 15:38:22.393.dfm,C:\Users\mark\Documents\RAD Studio\Projects\BCsoft\Unit1.dfm=C:\Users\mark\Documents\RAD Studio\Projects\BCsoft\BCscore.AskHandicaps.dfm</Transaction>
+    <Transaction>2011/09/23 20:38:14.566.pas,C:\Users\mark\Documents\RAD Studio\Projects\BCsoft\Unit1.pas=C:\Users\mark\Documents\RAD Studio\Projects\BCsoft\BCscore.RunningText.pas</Transaction>
+  </Transactions>
+</BorlandProject>

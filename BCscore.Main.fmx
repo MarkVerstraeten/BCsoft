@@ -1,0 +1,101 @@
+object MainForm: TMainForm
+  Left = 0
+  Top = 0
+  BiDiMode = bdLeftToRight
+  Caption = 'BCscore'
+  BorderStyle = bsNone
+  ClientHeight = 1047
+  ClientWidth = 1280
+  Transparency = False
+  Visible = False
+  OnDestroy = FormDestroy
+  StyleLookup = 'backgroundstyle'
+  object rectBackground: TRectangle
+    Align = alClient
+    Width = 1280.000000000000000000
+    Height = 1047.000000000000000000
+    HitTest = False
+    Fill.Color = claCadetblue
+    object rectNewGame: TRectangle
+      Position.Point = '(16,16)'
+      Width = 616.000000000000000000
+      Height = 488.000000000000000000
+      OnClick = rectNewGameClick
+      Fill.Color = claYellowgreen
+      object txtNewGame: TText
+        Position.Point = '(48,48)'
+        Width = 521.000000000000000000
+        Height = 393.000000000000000000
+        HitTest = False
+        Fill.Color = claWhite
+        Font.Size = 72.000000000000000000
+        Text = 'Start een nieuwe wedstrijd ...'
+      end
+      object idNewGame: TText
+        Width = 50.000000000000000000
+        Height = 50.000000000000000000
+        Fill.Color = claAliceblue
+        Font.Size = 48.000000000000000000
+        Font.Style = [fsBold]
+        Text = '7'
+      end
+    end
+    object Memo1: TMemo
+      Position.Point = '(648,16)'
+      Width = 617.000000000000000000
+      Height = 489.000000000000000000
+      HitTest = False
+      TabOrder = 1
+      ReadOnly = True
+      WordWrap = False
+    end
+    object rectOverview: TRectangle
+      Position.Point = '(16,520)'
+      Width = 616.000000000000000000
+      Height = 488.000000000000000000
+      OnClick = rectOverviewClick
+      Fill.Color = claGold
+      object txtOverview: TText
+        Position.Point = '(48,48)'
+        Width = 521.000000000000000000
+        Height = 393.000000000000000000
+        HitTest = False
+        Fill.Color = claWhite
+        Font.Size = 72.000000000000000000
+        Text = 'Overzicht vandaag gespeelde wedstijden ...'
+      end
+      object idOverview: TText
+        Width = 50.000000000000000000
+        Height = 50.000000000000000000
+        Fill.Color = claAliceblue
+        Font.Size = 48.000000000000000000
+        Font.Style = [fsBold]
+        Text = '1'
+      end
+    end
+    object rectExit: TRectangle
+      Position.Point = '(648,520)'
+      Width = 616.000000000000000000
+      Height = 488.000000000000000000
+      OnClick = rectExitClick
+      Fill.Color = claCrimson
+      object txtExit: TText
+        Position.Point = '(48,48)'
+        Width = 513.000000000000000000
+        Height = 393.000000000000000000
+        HitTest = False
+        Fill.Color = claWhite
+        Font.Size = 72.000000000000000000
+        Text = 'Be'#235'indig het programma en sluit de computer af !'
+      end
+      object idExit: TText
+        Width = 50.000000000000000000
+        Height = 50.000000000000000000
+        Fill.Color = claAliceblue
+        Font.Size = 48.000000000000000000
+        Font.Style = [fsBold]
+        Text = '3'
+      end
+    end
+  end
+end
