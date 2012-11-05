@@ -1,14 +1,16 @@
-unit BCscore.Main;
+unit BCscoreMain;
+
+{$MODE Delphi}
 
 interface
 
 uses
-  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  LCLIntf, LCLType, LMessages, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
   Dialogs, ExtCtrls, StdCtrls;
 
 type
   TMainForm = class(TForm)
-    gpnlMenu: TGridPanel;
+    gpnlMenu: TPanel;
     pnlNewGame: TPanel;
     pnlExtra: TPanel;
     pnlOverview: TPanel;
@@ -38,11 +40,11 @@ var
 implementation
 
 uses
-  Billiards.GameDay,
-  Billiards.Game,
-  BCscore.Score, Billiards.Member, BCscore.MemberSelection, BCscore.Consts,
-  BCscore.AskForm, BCscore.ReadMember;
-{$R *.dfm}
+  BilliardsGameDay,
+  BilliardsGame,
+  BCscoreScore, BilliardsMember, BCscoreMemberSelection, BCscoreConsts,
+  BCscoreAskForm, BCscoreReadMember;
+{$R *.lfm}
 
 procedure TMainForm.ExitApp;
 begin

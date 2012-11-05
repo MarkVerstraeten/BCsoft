@@ -1,4 +1,4 @@
-unit Billiards.ActiveMembers;
+unit BilliardsActiveMembers;
 
 interface
 

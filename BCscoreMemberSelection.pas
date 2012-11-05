@@ -1,10 +1,12 @@
-unit BCscore.MemberSelection;
+unit BCscoreMemberSelection;
+
+{$MODE Delphi}
 
 interface
 
 uses
-  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, ComCtrls, StdCtrls, Generics.Collections, Billiards.Member;
+  LCLIntf, LCLType, LMessages, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, ComCtrls, StdCtrls, {Generics.Collections,} BilliardsMember;
 
 type
   TMemberSelectionForm = class(TForm)
@@ -33,8 +35,8 @@ var
 
 implementation
 
-uses Billiards.DataModule, Billiards.GameDay, BCscore.Consts;
-{$R *.dfm}
+uses BilliardsDataModule, BilliardsGameDay, BCscoreConsts;
+{$R *.lfm}
 
 procedure TMemberSelectionForm.BuildListOfMembers;
 var

@@ -1,9 +1,11 @@
-unit BCscore.RunningText;
+unit BCscoreRunningText;
+
+{$MODE Delphi}
 
 interface
 
 uses
-  Windows, Messages, SysUtils, Classes, Graphics, Controls, Forms, Dialogs,
+  LCLIntf, LCLType, LMessages, Messages, SysUtils, Classes, Graphics, Controls, Forms, Dialogs,
   extctrls;
 
 type

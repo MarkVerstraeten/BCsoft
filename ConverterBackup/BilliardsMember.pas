@@ -1,4 +1,4 @@
-unit Billiards.Member;
+unit BilliardsMember;
 
 interface
 
@@ -75,7 +75,7 @@ uses
   IBDatabase,
   IBQuery,
   IBCustomDataSet,
-  Billiards.DataModule;
+  BilliardsDataModule;
 
 { TBilliardMember }
 

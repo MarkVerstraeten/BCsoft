@@ -1,4 +1,4 @@
-unit BCscore.AskForm;
+unit BCscoreAskForm;
 
 interface
 
@@ -30,7 +30,7 @@ var
 
 implementation
 
-uses BCscore.Consts;
+uses BCscoreConsts;
 {$R *.dfm}
 
 procedure TAskForm.FormKeyPress(Sender: TObject; var Key: Char);

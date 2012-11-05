@@ -1,4 +1,4 @@
-unit Billiards.DataModule;
+unit BilliardsDataModule;
 
 interface
 

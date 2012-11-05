@@ -1,4 +1,4 @@
-unit Billiards.GameType;
+unit BilliardsGameType;
 
 interface
 
@@ -27,7 +27,7 @@ uses
   IBDatabase,
   IBQuery,
   IBCustomDataSet,
-  Billiards.DataModule;
+  BilliardsDataModule;
 
 { TGameType }
 

@@ -1,12 +1,12 @@
-unit Billiards.Game;
+unit BilliardsGame;
 
 interface
 
 uses
-  Billiards.GameDay,
-  Billiards.GameType,
-  Billiards.Period,
-  Billiards.Member;
+  BilliardsGameDay,
+  BilliardsGameType,
+  BilliardsPeriod,
+  BilliardsMember;
 
 type
   TBilliardGame = class
@@ -49,7 +49,8 @@ uses
   DB,
   IBDatabase,
   IBQuery,
-  IBCustomDataSet, Billiards.DataModule;
+  IBCustomDataSet, 
+  BilliardsDataModule;
 
 { TBilliardGame }
 

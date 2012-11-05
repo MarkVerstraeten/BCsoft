@@ -1,11 +1,11 @@
-unit Billiards.GameDay;
+unit BilliardsGameDay;
 
 interface
 
 uses
-  Billiards.GameType,
-  Billiards.Period,
-  Billiards.Member;
+  BilliardsGameType,
+  BilliardsPeriod,
+  BilliardsMember;
 
 type
   TBilliardGameDay = class

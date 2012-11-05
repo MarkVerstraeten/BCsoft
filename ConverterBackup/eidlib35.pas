@@ -1,9 +1,7 @@
 unit eidlib35;
 
-{$MODE Delphi}
-
 interface
-uses LCLIntf, LCLType, LMessages, SysUtils, Classes;
+uses Windows, SysUtils, Classes;
 
 const
   EID_OK = 0;

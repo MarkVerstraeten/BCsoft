@@ -1,4 +1,6 @@
-unit Billiards.Period;
+unit BilliardsPeriod;
+
+{$MODE Delphi}
 
 interface
 
@@ -25,10 +27,10 @@ uses
   SysUtils,
   Classes,
   DB,
-  IBDatabase,
+  {IBDatabase,
   IBQuery,
-  IBCustomDataSet,
-  Billiards.DataModule;
+  IBCustomDataSet,}
+  BilliardsDataModule;
 
 { TBilliardPeriod }
 

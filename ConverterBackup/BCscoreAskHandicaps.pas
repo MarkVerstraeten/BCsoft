@@ -1,10 +1,10 @@
-unit BCscore.AskHandicaps;
+unit BCscoreAskHandicaps;
 
 interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, StdCtrls, ExtCtrls, BCscore.Consts;
+  Dialogs, StdCtrls, ExtCtrls, BCscoreConsts;
 
 type
   TAskHandicapsForm = class(TForm)

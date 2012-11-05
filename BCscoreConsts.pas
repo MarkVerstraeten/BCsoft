@@ -1,4 +1,6 @@
-unit BCscore.Consts;
+unit BCscoreConsts;
+
+{$MODE Delphi}
 
 interface
 

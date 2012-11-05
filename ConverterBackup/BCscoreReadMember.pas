@@ -4,7 +4,7 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, StdCtrls, ExtCtrls, eidlib35, Billiards.Member, BCscore.AskForm, BCscore.AskHandicaps;
+  Dialogs, StdCtrls, ExtCtrls, eidlib35, BilliardsMember, BCscoreAskForm, BCscoreAskHandicaps;
 
 type
   TReadMemberForm = class(TForm)
@@ -33,7 +33,7 @@ var
 implementation
 
 uses
-  BCscore.Consts, JPEG;
+  BCscoreConsts, JPEG;
 {$R *.dfm}
 
 procedure TReadMemberForm.FormKeyPress(Sender: TObject; var Key: Char);

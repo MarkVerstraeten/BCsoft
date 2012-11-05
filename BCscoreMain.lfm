@@ -1,0 +1,212 @@
+object MainForm: TMainForm
+  Left = 0
+  Top = 0
+  BorderStyle = bsNone
+  Caption = 'BCscore'
+  ClientHeight = 334
+  ClientWidth = 419
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  Position = poScreenCenter
+  OnKeyPress = FormKeyPress
+  OnShow = FormShow
+  PixelsPerInch = 96
+  object gpnlMenu: TPanel
+    Left = 0
+    Top = 0
+    Width = 419
+    Height = 334
+    Align = alClient
+    BevelOuter = bvNone
+    ParentColor = True
+    TabOrder = 0
+    object pnlNewGame: TPanel
+      Left = 14
+      Top = 14
+      Width = 185
+      Height = 143
+      Align = alClient
+      BevelOuter = bvNone
+      Color = clAppWorkSpace
+      TabOrder = 0
+      object lblNewGameShortCut: TLabel
+        Left = 3
+        Top = 6
+        Width = 40
+        Height = 77
+        Alignment = taCenter
+        AutoSize = False
+        Caption = '7'
+        Color = clWhite
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Height = -64
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentColor = False
+        ParentFont = False
+        Transparent = False
+        Layout = tlCenter
+      end
+      object Label5: TLabel
+        Left = 44
+        Top = 46
+        Width = 123
+        Height = 98
+        Alignment = taCenter
+        Anchors = [akLeft, akTop, akRight, akBottom]
+        AutoSize = False
+        Caption = 'Start een nieuwe wedstrijd'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindow
+        Font.Height = -96
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+        WordWrap = True
+      end
+    end
+    object pnlExtra: TPanel
+      Left = 215
+      Top = 14
+      Width = 186
+      Height = 143
+      Align = alClient
+      BevelOuter = bvNone
+      Color = clAppWorkSpace
+      TabOrder = 1
+      object lblExtraShortCut: TLabel
+        Left = 3
+        Top = 6
+        Width = 40
+        Height = 77
+        Alignment = taCenter
+        AutoSize = False
+        Caption = '9'
+        Color = clWhite
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Height = -64
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentColor = False
+        ParentFont = False
+        Transparent = False
+        Layout = tlCenter
+      end
+      object Label1: TLabel
+        Left = 44
+        Top = 46
+        Width = 123
+        Height = 95
+        Alignment = taCenter
+        Anchors = [akLeft, akTop, akRight, akBottom]
+        AutoSize = False
+        Caption = 'Inlezen eID gegevens ...'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindow
+        Font.Height = -96
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+        WordWrap = True
+      end
+    end
+    object pnlOverview: TPanel
+      Left = 14
+      Top = 173
+      Width = 185
+      Height = 143
+      Align = alClient
+      BevelOuter = bvNone
+      Color = clAppWorkSpace
+      TabOrder = 2
+      object lblOverviewShortCut: TLabel
+        Left = 3
+        Top = 6
+        Width = 40
+        Height = 77
+        Alignment = taCenter
+        AutoSize = False
+        Caption = '1'
+        Color = clWhite
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Height = -64
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentColor = False
+        ParentFont = False
+        Transparent = False
+        Layout = tlCenter
+      end
+      object Label2: TLabel
+        Left = 44
+        Top = 46
+        Width = 123
+        Height = 95
+        Alignment = taCenter
+        Anchors = [akLeft, akTop, akRight, akBottom]
+        AutoSize = False
+        Caption = 'Overzicht wedstrijden v/e speler'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindow
+        Font.Height = -96
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+        WordWrap = True
+      end
+    end
+    object pnlExit: TPanel
+      Left = 215
+      Top = 173
+      Width = 186
+      Height = 143
+      Align = alClient
+      BevelOuter = bvNone
+      Color = clAppWorkSpace
+      TabOrder = 3
+      object lblExitShortCut: TLabel
+        Left = 3
+        Top = 6
+        Width = 40
+        Height = 77
+        Alignment = taCenter
+        AutoSize = False
+        Caption = '3'
+        Color = clWhite
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Height = -64
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentColor = False
+        ParentFont = False
+        Transparent = False
+        Layout = tlCenter
+      end
+      object Label3: TLabel
+        Left = 44
+        Top = 46
+        Width = 123
+        Height = 95
+        Alignment = taCenter
+        Anchors = [akLeft, akTop, akRight, akBottom]
+        AutoSize = False
+        Caption = 'Be'#235'indigen en computer afsluiten'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindow
+        Font.Height = -96
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+        WordWrap = True
+      end
+    end
+  end
+end

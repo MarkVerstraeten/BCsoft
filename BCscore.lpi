@@ -1,0 +1,175 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <PathDelim Value="\"/>
+    <General>
+      <Flags>
+        <MainUnitHasUsesSectionForAllUnits Value="False"/>
+        <MainUnitHasCreateFormStatements Value="False"/>
+        <MainUnitHasTitleStatement Value="False"/>
+      </Flags>
+      <SessionStorage Value="InProjectDir"/>
+      <MainUnit Value="0"/>
+      <Title Value="BCscore"/>
+      <UseAppBundle Value="False"/>
+      <ResourceType Value="res"/>
+    </General>
+    <i18n>
+      <EnableI18N LFM="False"/>
+    </i18n>
+    <VersionInfo>
+      <StringTable ProductVersion=""/>
+    </VersionInfo>
+    <BuildModes Count="1">
+      <Item1 Name="Default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="1">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+    </RequiredPackages>
+    <Units Count="16">
+      <Unit0>
+        <Filename Value="BCscore.lpr"/>
+        <IsPartOfProject Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="BCscoreMain.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MainForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="BCscoreMain"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="BilliardsDataModule.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="BilliardsDataModule"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="BilliardsGame.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="BilliardsGame"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="BilliardsGameDay.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="BilliardsGameDay"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="BilliardsGameType.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="BilliardsGameType"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="BilliardsMember.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="BilliardsMember"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="BilliardsPeriod.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="BilliardsPeriod"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="BCscoreScore.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+        <UnitName Value="BCscoreScore"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="BCscoreMemberSelection.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MemberSelectionForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="BCscoreMemberSelection"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="BCscoreConsts.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="BCscoreConsts"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="BCscoreAskForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="AskForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="BCscoreAskForm"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="BCscoreReadMember.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ReadMemberForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="BCscore.ReadMember"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="eidlib35.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="eidlib35"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="BCscoreAskHandicaps.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="AskHandicapsForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="BCscoreAskHandicaps"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="BCscoreRunningText.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="BCscoreRunningText"/>
+      </Unit15>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <Parsing>
+      <SyntaxOptions>
+        <SyntaxMode Value="delphi"/>
+      </SyntaxOptions>
+    </Parsing>
+    <Linking>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerMessages>
+        <MsgFileName Value=""/>
+      </CompilerMessages>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

@@ -1,10 +1,10 @@
-unit BCscore.Score;
+unit BCscoreScore;
 
 interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, StdCtrls, Generics.Collections, Billiards.Member, ExtCtrls, jpeg, GIFImg;
+  Dialogs, StdCtrls, Generics.Collections, BilliardsMember, ExtCtrls, jpeg, GIFImg;
 
 type
   TScoreForm = class(TForm)
@@ -88,7 +88,7 @@ var
 
 implementation
 
-uses Billiards.Game, BCscore.Consts;
+uses BilliardsGame, BCscoreConsts;
 {$R *.dfm}
 
 procedure TScoreForm.FormCreate(Sender: TObject);
